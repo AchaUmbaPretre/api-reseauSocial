@@ -7,6 +7,8 @@ import authRoutes from './routes/auth.js'
 
 const app = express();
 
+app.use(express.json())
+
 app.use('/api/users', usersRoutes)
 app.use('/api/posts', postsRoutes)
 app.use('/api/likes', likesRoutes)
