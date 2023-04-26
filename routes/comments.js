@@ -1,7 +1,7 @@
-import Express from 'express'
+import express from 'express'
 import { getcomments } from "../controllers/comments.js";
 
-const  router = Express.Router();
+const  router = express.Router();
 
 router.get('/find/:userId', getcomments)
 

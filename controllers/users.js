@@ -1,4 +1,4 @@
 
-export const getUser = () =>{
+export const getUser = async (req,res) =>{
     
 }
